@@ -1,0 +1,19 @@
+﻿<Page
+    x:Class="App1.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:App1"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <CheckBox x:Name="Milkcheck" Content="Milk" HorizontalAlignment="Left" Margin="91,132,0,0" VerticalAlignment="Top" Checked="Milk_checked" Unchecked="Milk_uncheck"/>
+        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="91,465,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="190" Width="328" Foreground="#FF191212" SelectionHighlightColor="#FF9B4939"/>
+        <CheckBox x:Name="butterCheck" Content="Butter" HorizontalAlignment="Left" Margin="91,188,0,0" VerticalAlignment="Top" Checked="Butter_checked" Unchecked="Butter_uncheck"/>
+        <CheckBox x:Name="checkBox1_Copy1" Content="CheckBox" HorizontalAlignment="Left" Margin="91,243,0,0" VerticalAlignment="Top" Checked="Milk_checked"/>
+        <CheckBox x:Name="checkBox1_Copy2" Content="CheckBox" HorizontalAlignment="Left" Margin="91,298,0,0" VerticalAlignment="Top" Checked="Milk_checked"/>
+        <CheckBox x:Name="checkBox1_Copy3" Content="CheckBox" HorizontalAlignment="Left" Margin="91,354,0,0" VerticalAlignment="Top" Checked="Milk_checked"/>
+        <Button x:Name="buyButton" Content="Button" HorizontalAlignment="Left" Margin="91,406,0,0" VerticalAlignment="Top" Click="BuyClick"/>
+    </Grid>
+</Page>

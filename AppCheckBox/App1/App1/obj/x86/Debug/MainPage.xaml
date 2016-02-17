@@ -1,0 +1,20 @@
+﻿<Page
+    x:Class="App1.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:App1"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <CheckBox x:ConnectionId='1' x:Name="Milkcheck" Content="Milk" HorizontalAlignment="Left" Margin="91,132,0,0" VerticalAlignment="Top"                                                />
+        <TextBlock x:ConnectionId='2' x:Name="textBlock" HorizontalAlignment="Left" Margin="91,465,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="190" Width="328" Foreground="#FF191212" SelectionHighlightColor="#FF9B4939"/>
+        <CheckBox x:ConnectionId='3' x:Name="butterCheck" Content="Butter" HorizontalAlignment="Left" Margin="91,188,0,0" VerticalAlignment="Top"                                                    />
+        <CheckBox x:ConnectionId='4' x:Name="checkBox1_Copy1" Content="CheckBox" HorizontalAlignment="Left" Margin="91,243,0,0" VerticalAlignment="Top"                       />
+        <CheckBox x:ConnectionId='5' x:Name="checkBox1_Copy2" Content="CheckBox" HorizontalAlignment="Left" Margin="91,298,0,0" VerticalAlignment="Top"                       />
+        <CheckBox x:ConnectionId='6' x:Name="checkBox1_Copy3" Content="CheckBox" HorizontalAlignment="Left" Margin="91,354,0,0" VerticalAlignment="Top"                       />
+        <Button x:ConnectionId='7' x:Name="buyButton" Content="Button" HorizontalAlignment="Left" Margin="91,406,0,0" VerticalAlignment="Top"                 />
+    </Grid>
+</Page>
+
